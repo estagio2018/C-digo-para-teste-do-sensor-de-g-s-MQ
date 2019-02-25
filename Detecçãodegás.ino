@@ -1,4 +1,4 @@
-void setup () {
+yvoid setup () {
     Serial.begin (9600);
 }
 
@@ -12,5 +12,5 @@ void loop () {
     Serial.print ("sensor_volt =");
     Serial.print (sensor_volt);
     Serial.println ("V");
-    atraso (1000);
+    delay (1000);
 }
